@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<!-- 数据库驱动 -->
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<!-- 数据库连接 -->
+		<property name="jdbcUrl">jdbc:mysql://localhost/cost?useUnicode=true&amp;characterEncoding=utf-8</property>
+		<!-- 数据库用户名 -->
+		<property name="user">root</property>
+		<!-- 数据库密码 -->
+		<property name="password">3306</property>
+		<!-- 初始化数据库连接数量大小 -->
+		<property name="initialPoolSize">5</property>
+		<!-- 设置连接池的最大连接数量 -->
+		<property name="maxPoolSize">20</property>
+		<!-- 设置连接的最大空闲时间，单位是秒 -->
+		<property name="maxIdleTime">1000</property>
+	</default-config>
+</c3p0-config>
